@@ -7,7 +7,16 @@
     tools:context="com.example.rodneytressler.week2assessment.MainActivity">
 
 
-
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:elevation="5dp"
+        android:id="@+id/fragment_holder"
+></FrameLayout>
     <EditText
         android:textColor="@android:color/black"
         android:layout_marginBottom="20dp"
@@ -35,7 +44,6 @@
         app:layout_constraintStart_toStartOf="parent"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
-
 
 
 </android.support.constraint.ConstraintLayout>

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/BasicAndroid-Week2-Assessment.iml" filepath="$PROJECT_DIR$/BasicAndroid-Week2-Assessment.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/BasicAndroid-Week2-Assessment.iml" filepath="$PROJECT_DIR$/.idea/BasicAndroid-Week2-Assessment.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BasicAndroidWeek2Assessment.iml" filepath="$PROJECT_DIR$/BasicAndroidWeek2Assessment.iml" />
       <module fileurl="file://$PROJECT_DIR$/Week2Assessment.iml" filepath="$PROJECT_DIR$/Week2Assessment.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />

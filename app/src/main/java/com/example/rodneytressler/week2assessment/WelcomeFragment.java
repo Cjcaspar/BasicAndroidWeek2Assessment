@@ -11,11 +11,15 @@ import android.widget.TextView;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
+import static com.example.rodneytressler.week2assessment.MainActivity.ACCOUNT;
+
 /**
  * Created by rodneytressler on 12/14/17.
  */
 
-public class WelcomeFragment {
+public class WelcomeFragment extends Fragment {
+
+    private Account account;
 
     @BindView(R.id.welcome_text)
     protected TextView welcomeText;
@@ -31,5 +35,21 @@ public class WelcomeFragment {
         return view;
     }
 
+    public static WelcomeFragment newInstance() {
+
+        Bundle args = new Bundle();
+
+        WelcomeFragment fragment = new WelcomeFragment();
+        fragment.setArguments(args);
+        return fragment;
+    }
+
+    @Override
+    public void onResume() {
+        super.onResume();
+        account = getArguments().getParcelable(ACCOUNT);
+        welcomeText.setText(getResources().getString(R.string.welcome_person, account.getName()));
+        instructionsText.setText(getResources().getString(R.string.instruction_text, account.getEmail()));
+    }
 
 }
